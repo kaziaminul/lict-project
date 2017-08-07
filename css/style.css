@@ -1,0 +1,288 @@
+#body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-image: url("../images/clinic-slider-compressor.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.body2{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-image: url("../images/hms-3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.heading{
+	text-align: center;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: Constantia;
+    position: relative;
+    color: indigo;
+}
+.admin{
+	text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-family: Constantia;
+    position: relative;
+    color: indigo;
+}
+.heading::before{
+	content: "";
+    border: 2px solid red;
+    border-radius: 50px;
+    width: 8%;
+    top: 45%;
+    left: 14%;
+    position: absolute;
+}
+.heading::after{
+	content: "";
+    border: 2px solid red;
+    border-radius: 50px;
+    width: 8%;
+    top: 45%;
+    right: 14%;
+    position: absolute;
+}
+.admin::before{
+	content: "";
+    border: 2px solid red;
+    border-radius: 50px;
+    width: 8%;
+    top: 45%;
+    left: 29%;
+    position: absolute;
+}
+.admin::after{
+	content: "";
+    border: 2px solid red;
+    border-radius: 50px;
+    width: 8%;
+    top: 45%;
+    right: 29%;
+    position: absolute;
+}
+.login{
+	overflow: hidden;
+	margin-right: 1%;
+	margin-bottom: 57px;
+}
+.logout{
+	overflow: hidden;
+	margin-right: 1%;
+	
+}
+.logbutton{
+	text-align: center;
+	text-decoration: none;
+}
+.logbutton2{
+	text-align: center;
+	text-decoration: none;
+}
+span{
+	float: right;
+    padding: 12px;
+    font-size: 24px;
+    /* margin-top: 10px; */
+    /* margin-right: 10px; */
+    letter-spacing: 10px;
+    border: 2px solid red;
+    border-radius: 50px;
+    font-family: Arial;
+    font-weight: bold;
+}
+#form{
+	width: 50%;
+    float: right;
+    margin-right: 1%;
+    overflow: hidden;
+}
+#form form{
+	position: relative;
+	right: -100%;
+	display: none;
+}
+#inputleft{
+	width: 60%;
+    float: left;
+    /* display: inline-block; */
+}
+#signright{
+	    /* width: 30%; */
+    float: right;
+    /* display: inline-block; */
+}
+.input{
+	width: 100%;
+	font-size: 20px;
+    padding: 6px;
+    padding-left: 11px;
+    border: none;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+#form form .signin{
+	cursor: pointer;
+    font-size: 24px;
+    padding: 12px;
+    margin-top: 10%;
+    letter-spacing: 10px;
+    border: none;
+    border-radius: 50px;
+}
+input:focus{
+	outline: none;
+}
+.slide{
+    width: 50%;
+    height: 300px;
+    /* left: 98%; */
+    float: right;
+    margin-right: 2.5%;
+}
+#right{
+	width: 30%;
+    position: absolute;
+    right: 0;
+    bottom: 3%;
+    /* height: 20px; */
+    float: right;
+    overflow: hidden;
+}
+.text{
+	border-left: 7px solid #067ef5;
+    background-color: #c0cad4;
+    color: #5f2424;
+    text-align: left;
+    padding: 0;
+    padding-left: 10px;
+    margin: 0;
+    margin-left: 2%;
+    letter-spacing: 10px;
+    font-size: 36px;
+    font-family: fantasy;
+    position: relative;
+    right: -100%;
+}
+#docright{
+	width: 30%;
+    position: absolute;
+    right: 0;
+    bottom: 3%;
+    /* height: 20px; */
+    float: right;
+    overflow: hidden;
+}
+.doctext{
+	border-left: 7px solid #067ef5;
+    background-color: #c0cad4;
+    color: #5f2424;
+    text-align: left;
+    padding: 0;
+    padding-left: 10px;
+    margin: 0;
+    margin-left: 2%;
+    letter-spacing: 10px;
+    font-size: 36px;
+    font-family: fantasy;
+    position: relative;
+    right: -100%;
+}
+.body2 nav ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 0;
+}
+.body2 nav ul li{
+	padding: 15px;
+	display: inline-block;
+}
+.body2 nav ul li a{
+	text-decoration: none;
+    padding: 5px;
+    font-family: Tahoma;
+    color: #446CB3;
+    font-size: x-large;
+}
+.body2 nav ul li a:hover{
+	color: #663399;
+	border-bottom: 2px solid #663399;
+}
+.lists{
+    /* height: 20px; */
+    border-left: 5px solid #663399;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.text2{
+	text-align: left;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: calibri;
+    color: white;
+    /* margin-bottom: 10px; */
+    margin: 0;
+}
+.del{
+	border-left: 5px solid red;
+	margin-top: 10px;
+	background-color: #EC644B;
+}
+.body2 div a{
+	text-decoration: none;
+	margin-left: 15px;
+}
+.body2 table{
+	    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: #062f2f;
+}
+.body2 thead tr th{
+	font-family: Arial;
+	text-align: left;
+	color: #19B5FE;
+}
+.body2 tbody tr td{
+	text-align: left;
+}
+.modal{
+	display: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, .5);
+	border-radius: 2px solid grey;
+}
+.modal .modal-form{
+	margin: 15% auto auto;
+    width: 25%;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 2px;
+}
+.modalhead{
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
